@@ -1,11 +1,7 @@
 pipeline {
     agent any
     environment {
-<<<<<<< HEAD
         SERVICE = 'account'
-=======
-        SERVICE = 'account-service'
->>>>>>> 539d8bce6d4ca92735eddd17bfffb36cdb7651ec
         NAME = "mmp052/${env.SERVICE}"
     }
     stages {
